@@ -5,14 +5,13 @@
   "scripts": {
     "start": "parcel serve ./index.html",
     "build": "parcel build ./index.html --dist-dir ./dist --public-url ./",
-    "test": "npm run build && ex-test -d ./dist -t ./test/test.js"
+    "test": ""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "excalibur": "*",
-    "typescript": "*",
-    "@excaliburjs/testing": "*"
+    "typescript": "*"
   },
   "devDependencies": {
     "parcel": "*"
